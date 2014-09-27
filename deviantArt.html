@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Embed your deviantART gallery with this Javascript plugin"/>
+    <meta name="author" content="James Alexander Lee"/>
+    <title>deviantART-Gallery-Plugin</title>
+    <link rel="stylesheet" type="text/css" href="deviantART-gallery.min.css"/>
+    <script src="jquery-2.1.1.js"></script>
+     <script src="deviantART-gallery-plugin.js"></script>
+     <link rel="stylesheet" type="text/css" href="grid.css"/>
+     <link rel="stylesheet" type="text/css" href="default.css"/>
+     <link rel="stylesheet" type="text/css" href="component.css"/>
+     <link rel="stylesheet" type="text/css" href="ModalWindowEffects/css/component.css"/>
+     <link rel="stylesheet" type="text/css" href="ModalWindowEffects/css/default.css" />
+          <script src="ModalWindowEffects/js/modernizr.custom.js"></script>
+</head>
+<body>
+<div class="md-modal md-effect-1" id="modal-1">
+            <div class="md-content">
+                <h3 id="modal-title">Modal Dialog</h3>
+                <div>
+                   <p></p>
+                    <div id="deviantART-gallery"></div>
+                    </ul>
+                    <button class="md-close">Close me!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+    <div class="main clearfix" id="grid-div">
+       
+    </div>
+</div>
+ <div class="md-overlay"></div><!-- the overlay element -->
+
+
+   
+     <script src="modernizr.custom.js"></script>
+      <script src="toucheffects.js"></script>
+      <script src="ModalWindowEffects/js/classie.js"></script>
+      <script src="ModalWindowEffects/js/modalEffects.js"></script>
+       <script src="ModalWindowEffects/js/cssParser.js"></script>
+    <!--   <script>
+      var polyfilter_scriptpath = '/js/';
+       </script>
+      <script src="ModalWindowEffects/js/css-filters-polyfill.js"></script>-->
+         
+
+    <script>
+        deviantARTGalleryPlugin('fu51on', '27123391', '16:9');
+    </script>
+</body>
+</html>
